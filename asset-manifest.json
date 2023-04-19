@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HashBr0wn/static/css/main.e92e3a3b.css",
+    "main.js": "/HashBr0wn/static/js/main.7f3545bc.js",
+    "static/js/787.47fdd5f7.chunk.js": "/HashBr0wn/static/js/787.47fdd5f7.chunk.js",
+    "index.html": "/HashBr0wn/index.html",
+    "main.e92e3a3b.css.map": "/HashBr0wn/static/css/main.e92e3a3b.css.map",
+    "main.7f3545bc.js.map": "/HashBr0wn/static/js/main.7f3545bc.js.map",
+    "787.47fdd5f7.chunk.js.map": "/HashBr0wn/static/js/787.47fdd5f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e92e3a3b.css",
+    "static/js/main.7f3545bc.js"
+  ]
+}
