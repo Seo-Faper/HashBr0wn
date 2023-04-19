@@ -5,7 +5,6 @@
   font-size: calc(10px + 2vmin);
   font-family: "Courier";
   display: flex;
-
   align-items: center;
 }
 
@@ -19,6 +18,7 @@ input:focus {
 }
 
 p {
+  display: initial;
   color: lime;
   font-size: 20px;
   margin: 10px 0 0 10px;
@@ -72,6 +72,34 @@ p span.no-blink {
   }
 }
 
-.result>::selection {
+.result>selection {
   background: #2D2727;
+}
+
+.footer {
+  border-top: 20px solid #3F497F;
+  background: #2C3333;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-message p {
+  color: wheat;
+}
+
+.footer-message a {
+  color: wheat;
+}
+
+.footer-message a:link {
+  text-decoration: none;
+}
+
+.footer-message a:hover {
+  color: wheat;
+  text-decoration: none;
 }

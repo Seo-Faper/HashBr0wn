@@ -10,6 +10,14 @@ function App() {
         <br></br>
         <SegmentedButtonDropdownsExample></SegmentedButtonDropdownsExample>
       </div>
+      <div className='footer'>
+        <div className='footer-message'>
+          <br></br>
+          <center>
+            <p><a href="https://seo-faper.github.io/" target='_blank'>seo-faper</a></p>
+          </center>
+        </div>
+      </div>
     </div >
   );
 }
