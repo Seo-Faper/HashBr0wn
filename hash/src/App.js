@@ -12,9 +12,9 @@ function App() {
       </div>
       <div className='footer'>
         <div className='footer-message'>
-          <br></br>
           <center>
-            <p><a href="https://seo-faper.github.io/" target='_blank'>seo-faper</a></p>
+            <p>Get Your HASH</p><br></br>
+            <p>by <a href="https://seo-faper.github.io/" target='_blank'>seo-faper</a></p>
           </center>
         </div>
       </div>
