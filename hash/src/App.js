@@ -14,7 +14,7 @@ function App() {
         <div className='footer-message'>
           <center>
             <p>Get Your HASH</p><br></br>
-            <p>by <a href="https://seo-faper.github.io/" target='_blank'>seo-faper</a></p>
+            <p>by <a href="https://seo-faper.github.io/" target='noopener'>seo-faper</a></p>
           </center>
         </div>
       </div>
