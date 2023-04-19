@@ -1,0 +1,77 @@
+.App {
+  background-color: #37306B;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  font-family: "Courier";
+  display: flex;
+
+  align-items: center;
+}
+
+.search,
+.result {
+  width: 50%;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+p {
+  color: lime;
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end);
+}
+
+p:nth-child(2) {
+  animation: type2 8s steps(60, end);
+}
+
+p a {
+  color: lime;
+  text-decoration: none;
+}
+
+p span {
+  animation: blink 1s infinite;
+  color: palegreen;
+}
+
+p span.no-blink {
+  animation: none;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 0;
+  }
+
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+.result>::selection {
+  background: #2D2727;
+}
